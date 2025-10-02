@@ -26,11 +26,27 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  list-style-type: none;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Container */
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 /* title h2 */
