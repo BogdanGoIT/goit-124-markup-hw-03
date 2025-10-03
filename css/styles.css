@@ -8,7 +8,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* BASE */
+/* #region RESET */
 
 h1,
 h2,
@@ -38,7 +38,15 @@ a {
   text-decoration: none;
 }
 
-/* Container */
+/* #endregion RESET */
+
+/* #region Commom */
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .container {
   max-width: 1158px;
   padding-left: 15px;
@@ -49,7 +57,7 @@ a {
   outline-offset: -2px;
 }
 
-/* title h2 */
+/* Title h2 */
 .values-title,
 .team-title,
 .portfolio-title {
@@ -62,7 +70,42 @@ a {
   color: #2e2f42;
 }
 
-/* HEADER */
+/* Title h3 */
+.values-subtitle,
+.team-subtitle,
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/* Text p */
+.values-text,
+.team-text,
+.portfolio-text {
+  color: #434455;
+}
+
+/* hidden h1 section values*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+/* #endregion Common */
+
+/* #region HEADER */
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -99,9 +142,20 @@ a {
   color: #404bbf;
 }
 
-/* HERO */
+/* #endregion HEADER */
+
+/* #region HERO */
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.hero-content {
+  max-width: 496px;
+  outline: 2px solid rgb(179, 213, 42);
+  outline-offset: -2px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -111,15 +165,18 @@ a {
   text-align: center;
   color: #ffffff;
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
 }
 
 .hero-button {
+  display: block;
   font-family: 'Roboto', sans-serif;
   background-color: #4d5ae5;
   font-weight: 500;
   color: #ffffff;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  margin: 0 auto;
 }
 
 .hero-button:hover,
@@ -127,27 +184,12 @@ a {
   background-color: #404bbf;
   cursor: pointer;
 }
+/* #endregion HERO */
 
-/* Our Values */
+/* #region Our Values */
+/* #endregion Our Values */
 
-.values-subtitle,
-.team-subtitle,
-.portfolio-subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  text-transform: capitalize;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.values-text,
-.team-text,
-.portfolio-text {
-  color: #434455;
-}
-
-/* Our TEAM */
+/* #region Our TEAM */
 .team {
   background-color: #f4f4fd;
 }
@@ -155,15 +197,20 @@ a {
 .team-item {
   background-color: #ffffff;
 }
+/* #endregion Our TEAM */
 
-/* PORTFOLIO */
+/* #region PORTFOLIO */
+/* #endregion PORTFOLIO */
 
-/* FOOTER */
+/* #region FOOTER */
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-text,
 .logo .dark {
   color: #f4f4fd;
 }
+/* #endregion FOOTER */
