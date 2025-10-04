@@ -188,23 +188,19 @@ a {
   padding-bottom: 188px;
 }
 
-.hero-content {
-  max-width: 496px;
-  margin: 0 auto;
-}
-
 .hero-title {
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   color: #ffffff;
   letter-spacing: 0.02em;
-  margin-bottom: 48px;
+  margin: 0 auto 48px auto;
 }
 
 .hero-button {
-  border: 0px solid transparent;
+  border: none;
   display: block;
   font-family: 'Roboto', sans-serif;
   background-color: #4d5ae5;
@@ -217,8 +213,10 @@ a {
   border-radius: 4px;
   padding: 16px 32px;
   min-width: 169px;
+  height: 56px;
 
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -258,7 +256,7 @@ a {
 }
 
 .team-content {
-  padding: 32px 16px;
+  padding: 32px 0;
   text-align: center;
 }
 
@@ -277,7 +275,7 @@ a {
 }
 
 .portfolio-content {
-  padding: 32px 0px 32px 16px;
+  padding: 32px 16px;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
